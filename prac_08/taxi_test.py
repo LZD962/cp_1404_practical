@@ -2,7 +2,7 @@ from prac_08.taxi import Taxi
 
 
 def main():
-    t = Taxi("Prius 1", 100, 1.23)
+    t = Taxi("Prius 1", 100)
     t.drive(40)
     print(t)
     t.start_fare()
